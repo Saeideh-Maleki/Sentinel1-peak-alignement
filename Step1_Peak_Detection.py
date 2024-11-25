@@ -157,7 +157,7 @@ def smooth_and_plot_train(df, pol_label, year_train, dates_SAR_train):
 # Load the numpy data
 year_train=2019
 dataset = np.load(
-    f'D:/Colza_DB2/phase2n/W5/phase_2/US_CD_2019/Colza_data_U_new_5_{year_train}.npz', allow_pickle=True)
+    f'D:/Colza_DB/USA/Colza_data_U_new_5_{year_train}.npz', allow_pickle=True)
 X_SAR_train, y_multi_train = dataset_train["X_SAR"], dataset_train["y"]
 id_parcels_train, dates_SAR_train = dataset_train["id_parcels"], dataset_train["dates_SAR"]
 
@@ -321,7 +321,7 @@ def smooth_and_plot_test (df, pol_label,year_test,dates_SAR_test):
 # Load the numpy data
 year_test=2020
 dataset_test = np.load(
-    f'D:/Colza_DB2/Canada/Colza_data_C_W5_{year_test}.npz', allow_pickle=True)
+    f'D:/Colza_DB/Canada/Colza_data_C_W5_{year_test}.npz', allow_pickle=True)
 X_SAR_test, y_multi_test = dataset_test["X_SAR"], dataset_test["y"]
 id_parcels_test, dates_SAR_test = dataset_test["id_parcels"], dataset_test["dates_SAR"]
 
