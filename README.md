@@ -15,6 +15,7 @@ To apply the alignment method:
 2. Use the code `Step1_Peak_Detection.py` to identify the dataset on which the alignment method should be applied.
 3. Next, use the code `Step2_Peak_Alignement.py` to perform the alignment.
 
-![S1 Rapeseed](rapeseed_VV-VH.png)
 For the code associated to the classification task, please refer to the following repository: [Colza_Classif](https://github.com/cassiofragadantas/Colza_Classif)
+
+![S1 Rapeseed](rapeseed_VV-VH.png)
 
