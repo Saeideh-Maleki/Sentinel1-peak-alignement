@@ -163,7 +163,7 @@ def smooth_and_plot(df, pol_label, year,dates_SAR):
 year = 2019
 name= 'Colza_data_U_new_5_'
 dataset = np.load(
-        f'D:/Colza_DB2/phase2n/W5/phase_2/US_CD_2019/{name}{year}.npz', allow_pickle=True)
+        f'D:/Colza_DB/USA/{name}{year}.npz', allow_pickle=True)
 X_SAR, y_multi = dataset["X_SAR"], dataset["y"]
 id_parcels, dates_SAR = dataset["id_parcels"], dataset["dates_SAR"]
 
@@ -242,7 +242,7 @@ print('id_parcels', id_parcels.shape)
 print('sar_dates', sar_dates.shape)
 print('X_SARn', X_SARn.shape)
 
-np.savez(f'D:/code/{name}{year}_aligned.npz',
+np.savez(f'D:/Colza_DB/USA/{name}{year}_aligned.npz',
          X_SAR=X_SARn,
          y=y,
          id_parcels=id_parcels,
