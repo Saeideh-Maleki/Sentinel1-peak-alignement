@@ -1,4 +1,4 @@
-# Sentinel1-peak-alignement
+# Sentinel1 Peak Alignement
 This is the code for the time series alignment method which applied in our paper: 
 
 > S. Maleki et al. "*Sentinel-1 (S1) Time Series Alignment Method for Rapeseed Fields Mapping*", under review at Frontiers in Remote Sensing journal, 2024. 
