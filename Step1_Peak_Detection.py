@@ -350,7 +350,7 @@ print("Mean  n_timestamps_before_peak_vv_test:", round(mean_n_timestamps_before_
 if mean_n_timestamps_before_peak_vv_test<mean_n_timestamps_before_peak_vv_train:
     move = mean_n_timestamps_before_peak_vv_train - mean_n_timestamps_before_peak_vv_test  
     print (f'Mean {round(move)}  timestamps should be added to the begining of the test and remove from the end')
-    print (f'Set number:use {round(mean_n_timestamps_before_peak_vv_train)} in the next code for alignemnt')#The number of timestamps before highest peak of each plot will be set to this number. 
+    print (f'Set number:use offset={round(mean_n_timestamps_before_peak_vv_train)} in the next code for alignemnt')#The number of timestamps before highest peak of each plot will be set to this number. 
 else:
     move = mean_n_timestamps_before_peak_vv_test - mean_n_timestamps_before_peak_vv_train   
     print (f'Mean {round(move)}  timestamps should be added to the begining of the train and remove from the end')
